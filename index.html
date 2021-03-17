@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="PM Modi is your new Bicycle">
+		<meta name="keywords" content="PM, Modi, Bicycle">
+
+		<title>PM Modi is your new Bicycle</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style-advanced.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+		<script>
+		
+			// List of Work PM Modi has done
+			var work = [
+				'HELD YOUR HAND WHEN YOU WERE FRIGHTENED',
+				'WARMED UP YOUR CAR FOR YOU',
+				'FOLLOWED YOU ON TWITTER',
+				'ADDED YOU AS A FRIEND',
+				'RELATES TO WHAT YOU ARE SAYING',
+				'THOUGHT YOU COULD USE SOME CHOCOLATE',
+				'SAVED HIS DESSERT FOR YOU',
+				'WANTED YOU TO HAVE SOME CUPCAKES',
+				'SPENT THE AFTERNOON SETTING UP YOUR ROUTER',
+				'CARRIES A PICTURE OF YOU IN HIS WALLET',
+				'RESCUED YOU FROM DROWNING',
+				'EMAILED YOUR DAD AND TOLD HIM HOW GREAT YOU ARE',
+				'BUILT YOU A ROBOT',
+				'CAME TO SEE YOUR PLAY',
+				'SMILED WHEN HE HEARD ME MENTION YOUR NAME',
+				'SKATED HERE ALL THE WAY FROM THE BEACH JUST TO SEE YOU',
+				'FOLDED YOUR LAUNDRY',
+				'SET YOUR VOICE AS HIS RINGTONE',
+				'REMEMBERED YOUR BIRTHDAY',
+				'SENT YOU FLOWERS',
+				'TOLD ME TO TELL YOU HELLO',
+				'MAILED YOU A VALENTINE'
+			];
+
+			var image = [
+				'images/discover.jpeg',
+				'images/mcms.jpeg',
+				'images/express.jpg'
+			];
+
+
+			var randomNumber = Math.floor(Math.random()*work.length);
+			var randImage = Math.floor(Math.random()*image.length);
+			
+			document.write("<button onClick='window.location.reload();'>PM MODI "+ work[randomNumber]+"</button>");
+			document.write("<img src="+image[randImage]+" alt='PM Modi'>");
+		
+		</script>
+	</head>
+	<body>
+		<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+		
+	</body>
+</html>
