@@ -71,7 +71,7 @@ img {
 * For Small devices
 */
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1600px) {
 
      img {
           border-radius: 0;
