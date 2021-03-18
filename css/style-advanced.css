@@ -1,7 +1,7 @@
 /* 
 
-Author: 
-Project: 
+Author: Kaushik Raj
+Project: Randomizer Website
 
 */
 
@@ -67,10 +67,10 @@ img {
 }
 
 /*
-* For Small devices
+* For Large(Desktop) Screen devices
 */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
 
      button {
           margin-top: 70px;
@@ -79,9 +79,8 @@ img {
      
      img {
           width: 60%;
+	  margin: 40px auto 0 auto;
           border-radius: 15px;
      }
-
-     
      
 }
